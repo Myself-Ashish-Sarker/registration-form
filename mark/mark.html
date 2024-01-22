@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
+            rel="stylesheet"
+            type="text/css"
+        />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="./styles.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="flex flex-col gap-[10rem]">
+            <div class="flex flex-col gap-[3rem]">
+                <input data-input
+                    type="text"
+                    placeholder="Type here"
+                    class="input input-bordered input-secondary w-full max-w-xs"
+                />
+                <button btn-input class="btn btn-secondary h-[3rem] w-[7rem] text-white">
+                    Sign in
+                </button>
+            </div>
+
+            <div class="flex flex-col gap-[3rem]">
+                <div>
+                    <input data-output
+                        type="text"
+                        placeholder="Type here"
+                        class="input input-bordered input-accent w-full max-w-xs"
+                    />
+                    <p data-err class="text-red-500 para-1">Password Wrong</p>
+                    <p data-success class="text-green-500 para-2">Successful</p>
+                </div>
+                <button btn-output class="btn btn-accent h-[3rem] w-[7rem] text-white">
+                    Sign up
+                </button>
+            </div>
+        </div>
+
+        <script src="./main.js"></script>
+    </body>
+</html>
