@@ -237,3 +237,44 @@ body {
     display: none;
 }
 /* Sign Up Box */
+
+
+/* Complete Box */
+.complete-box {
+    display: none;
+}
+
+.user-out-cmplt {
+    height: 11rem;
+    width: 20rem;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.5px);
+    -webkit-backdrop-filter: blur(7.5px);
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.cmplt-head-text {
+    margin-top: 2rem;
+    text-align: center;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+}
+
+.user-out-cmplt h3 {
+    margin-top: 1rem;
+    text-align: center;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+}
+
+.user-out-cmplt .sign-back {
+    color: #031E2A;
+    cursor: pointer;
+}
+
+.sign-back:hover {
+    color: #fff;
+}
+/* Complete Box */
