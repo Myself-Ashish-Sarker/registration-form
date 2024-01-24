@@ -13,6 +13,8 @@ body {
     background-repeat: no-repeat;
 }
 
+
+
 /* Sign in Box */
 .signin-box {
     display: block;
@@ -147,7 +149,7 @@ body {
 
 /* Sign Up Box */
 .signup-box {
-    display: block;
+    display: none;
 }
 
 .main-out-box {
