@@ -26,12 +26,18 @@
                 <h2>Log in</h2>
 
                 <h3 class="user-in-text">Username:</h3>
-                <input class="user-in-box" type="text" placeholder="Username" />
+                <input
+                    user-in-box
+                    class="user-in-box"
+                    type="text"
+                    placeholder="Username"
+                />
                 <p class="user-in-false">Username is not valid!</p>
                 <p class="user-in-true">Valid!</p>
 
                 <h3 class="pass-in-text">Password:</h3>
                 <input
+                    pass-in-box
                     class="pass-in-box"
                     type="password"
                     placeholder="Password"
@@ -50,20 +56,37 @@
         </section>
         <!-- Sign in Box -->
 
+
+        <!-- Sign in Complete Box -->
+        <section successful-box class="successful-box">
+            <div class="user-in-success">
+                <h1 class="success-head-text">Welcome </h1>
+            </div>
+        </section>
+        <!-- Sign in Complete Box -->
+
+        
         <!-- Sign up Box -->
         <section sign-out-section class="signup-box">
             <div main-out-box class="main-out-box">
                 <h2>Sign Up</h2>
 
                 <h3 class="user-out-text">Username:</h3>
-                <input class="user-out-box" type="text" placeholder="Username" />
-                
-                <h3 class="user-out-text">Email:</h3>
-                <input class="user-out-box" type="email" placeholder="Username" />
+                <input user-out-box
+                    class="user-out-box"
+                    type="text"
+                    placeholder="Username"
+                />
 
+                <h3 class="mail-out-text">Email:</h3>
+                <input
+                    class="mail-out-box"
+                    type="email"
+                    placeholder="Username"
+                />
 
                 <h3 class="pass-out-text">Password:</h3>
-                <input
+                <input pass-out-box
                     class="pass-out-box"
                     type="password"
                     placeholder="Password"
@@ -73,10 +96,9 @@
 
                 <button btn-output class="btn-out">Sign up</button>
 
-                <p class="forget-pass"> href="#">Forget Password?</p>
+                <p class="forget-pass">href="#">Forget Password?</p>
                 <p class="already-account">Already have an account?</p>
                 <p para-sign-in class="sign-in-text">Sign in</p>
-    
             </div>
         </section>
         <!-- Sign up Box -->

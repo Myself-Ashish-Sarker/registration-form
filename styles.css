@@ -147,6 +147,20 @@ body {
 /* Sign in Box */
 
 
+/* SuccessFul Box */
+.successful-box {
+    display: none;
+}
+
+
+.user-in-success .success-head-text {
+    text-align: center;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+}
+/* SuccessFul Box */
+
+
 /* Sign Up Box */
 .signup-box {
     display: none;
@@ -190,6 +204,24 @@ body {
 
 .main-out-box .user-out-box:focus {
     border: 0;
+}
+
+.main-out-box .mail-out-text {
+    margin-top: 3rem;
+    margin-left: 2.5rem;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+}
+
+.main-out-box .mail-out-box {
+    margin-top: 0.3rem;
+    margin-left: 2.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: 0;
+    width: 69%;
+    font-family: "Roboto", sans-serif;
 }
 
 .main-out-box .pass-out-text {
